@@ -1,0 +1,21 @@
+---
+layout: default
+call_to_action: Contact
+background_image_path:
+---
+
+{% if page.title %}
+	<div class="page-header">
+		<h2>{{ page.title }} Tech Articles</h2>
+	</div>
+{% endif %}
+
+<article class="content">
+	<p class="editable">You're currently looking at articles categorised under <strong>{{ page.title }}</strong>. <a href="{{ site.baseurl }}/tech/">View all articles</a> instead.</p>
+
+	<ol class="post-list">
+		{% for post in page.posts %}
+			{% include post-summary.html post=post %}
+		{% endfor %}
+	</ol>
+</article>
