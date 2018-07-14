@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Praecog Data & AI
+title: Praecog Advanced Analytics
 url: "https://praecog.github.io"
 baseurl:
 google_analytics_key:
@@ -37,8 +37,8 @@ defaults:
       path: ""
     values:
       layout: page
-      background_image_path: /uploads/tspeye02.png
-      image: /uploads/tspeye02.png
+      background_image_path: /uploads/tspeye03.png
+      image: /uploads/tspeye03.png
   -
     scope:
       path: ""
