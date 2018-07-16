@@ -1,6 +1,7 @@
 ---
 title: Python Intro
 date: 2018-07-15 00:00:00
+mathjax: true
 categories:
   - Python
 author_staff_member: jane-doe
@@ -9,6 +10,24 @@ large_header: false
 ---
 
 Adapted by [Volodymyr Kuleshov](http://web.stanford.edu/~kuleshov/) and [Isaac Caswell](https://symsys.stanford.edu/viewing/symsysaffiliate/21335) from the `CS231n` Python tutorial by Justin Johnson (http://cs231n.github.io/python-numpy-tutorial/).
+
+Here goes the math as per: https://www.linode.com/docs/applications/project-management/jupyter-notebook-on-jekyll/
+
+$$
+\begin{equation*}
+\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
+\mathbf{i} & \mathbf{j} & \mathbf{k} \\
+\frac{\partial X}{\partial u} &  \frac{\partial Y}{\partial u} & 0 \\
+\frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0
+\end{vmatrix}
+\end{equation*}
+$$
+
+Math done.
+
+Code highlighting: https://demisx.github.io/jekyll/2014/01/13/improve-code-highlighting-in-jekyll.html
+
+![](https://unsplash.it/600/450?image=777&a=.png){: width="960" height="50"} 
 
 ## Introduction
 
