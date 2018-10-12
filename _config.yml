@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: Praecog Advanced Analytics
-url: "https://praecog.github.io"
+title: Deep Theta
+url: "https://deeptheta.github.io"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -10,23 +10,25 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Machine Learning services and consulting.
+description: Machine Learning Research and Innovation.
 author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+  name: Viktor Remeli
+  email: viktor.remeli@gmail.com
+  twitter: VRemeli
 social:
-  name: Praecog Advanced Analytics
+  name: Viktor Remeli
   links:
-    - https://github.com/praecog
+    - https://github.com/deeptheta
+    - https://www.facebook.com/viktor.remeli
+    - www.linkedin.com/in/vremeli
 
 # -----
 # Build
 
-# timezone: Etc/UTC
+# timezone: Etc/CET
 
 paginate: 10
-paginate_path: "/tech/:num/"
+paginate_path: "/blog/:num/"
 
 collections:
   - "staff_members"
@@ -37,8 +39,8 @@ defaults:
       path: ""
     values:
       layout: page
-      background_image_path: /uploads/tspeye03.png
-      image: /uploads/tspeye03.png
+      background_image_path: /images/net-scape.jpeg
+      image: /images/net-scape.jpeg
   -
     scope:
       path: ""
@@ -85,7 +87,7 @@ exclude:
 
 call_to_actions:
   - Contact
-  - Tech Articles
+  - Blog Articles
   - Map
 
 social_icons:

@@ -17,26 +17,33 @@ body {
 }
 
 header {
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: calc(50% - 40px) 175px;
-	height: 420px;
+	background-repeat: repeat;
+	background-size: contain;
 	box-sizing: border-box;
+	height: 128px;
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-weight: 900;
 
 	.container {
 		text-align: center;
+		margin: 0;
 	}
 
-	@media (min-width: $mobile-break) {
-		background-size: contain;
-		background-position: calc(50% - 350px) calc(100% + 0px);
-		height: 30vh;
-
-		&.main-hero {
-			height: 60vh;
-			background-position: calc(50% - 350px) calc(100% + 0px);
+	@media (max-width: $mobile-break) {
+		height: 140px;
+		.invisititle {
+			color: rgba(255, 255, 255, 0.3);
+			font-size: 4rem;
 		}
+        }
 
+
+	@media (min-width: $mobile-break) {
+		padding: 0 0 0 calc(50% - 350px);
+		&.main-hero {
+		}
 		.container {
 			text-align: right;
 		}
@@ -58,11 +65,18 @@ header {
 	}
 }
 
-header,
+header {
+	a {
+		color: #3A4145;
+		&.active {
+			border-bottom: 2px solid;
+		}
+	}
+}
+
 footer {
 	a {
 		color: #3A4145;
-
 		&.active {
 			border-bottom: 2px solid;
 		}
@@ -73,7 +87,6 @@ header a.active {
 	border-bottom: 2px solid;
 }
 
-header,
 footer,
 section {
 	padding: 30px 20px;
@@ -107,8 +120,6 @@ section {
 
 	a {
 		color: #efefef;
-		transition: color 0.2s ease;
-
 		&:hover {
 			color: #fefefe;
 		}
