@@ -2,29 +2,25 @@
   links:
     - name: Home
       link: /
-    - name: Services
-      link: /services/
-    - name: Portfolio
-      link: /portfolio/
+    - name: Research
+      link: /research/
+    - name: Code
+      link: /code/
+    - name: Blog
+      link: /blog/
     - name: Contact
       link: /contact/
-    - name: Tech Articles
-      link: /tech/
 - title: Social
   links:
     - name: Facebook
-      link:
+      link: https://www.facebook.com/viktor.remeli
       social_icon: Facebook
       new_window: true
     - name: Twitter
-      link:
+      link: https://twitter.com/VRemeli
       social_icon: Twitter
       new_window: true
-    - name: Google+
-      link:
-      social_icon: Google Plus
-      new_window: true
     - name: LinkedIn
-      link:
+      link: https://www.linkedin.com/in/vremeli
       social_icon: LinkedIn
       new_window: true

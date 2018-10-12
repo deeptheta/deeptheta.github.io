@@ -10,7 +10,7 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Machine Learning Research and Innovation.
+description: My journey beyond the asymptote.
 author:
   name: Viktor Remeli
   email: viktor.remeli@gmail.com
@@ -87,7 +87,7 @@ exclude:
 
 call_to_actions:
   - Contact
-  - Blog Articles
+  - Blog Posts
   - Map
 
 social_icons:
