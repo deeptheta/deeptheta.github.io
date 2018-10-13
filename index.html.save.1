@@ -1,0 +1,66 @@
+---
+title: Research
+show_in_navigation: true
+navigation_order: 1
+call_to_action: Contact
+background_image_path:
+large_header: true
+testimonials:
+  - message: We use Deep Theta in all our endeavours. They offer an unparalleled service when it comes to running a business.
+    image: "//placekitten.com/g/60/60?a=.png"
+    name: Joice Carmold
+  - message: Deep Theta are the best of the best. Being local, they care about people and have strong ties to the community.
+    image: "//fillmurray.com/60/60?a=.png"
+    name: Peter Rottenburg
+  - message: Deep Theta were everything we could have hoped for when buying our first home. Highly recommended to all.
+    image: "//placebear.com/60/60?a=.png"
+    name: D. and G. Gibbleston
+_options:
+  image:
+    width: 60
+    height: 60
+---
+
+<div class="editable">
+    <h3>Computer Vision</h3>
+    <ol>
+	<li><strong>Input Cross-Encoding Data Fusion</strong></li>
+	<ul style="margin: 0px;">
+	    <li>The first contact with law for many people is when buying a first home.</li>
+	    <li>We can assist you through this process, managing the details and offering tech article
+	    <li>When or if the time comes, we'll also assist with selling your home.</li>
+	</ul>
+	<li><strong>PointCloud based Raw Sensor Fusion for Autonomous Vehicles</strong></li>
+        <ul style="margin: 0px;">
+            <li>The first contact with law for many people is when buying a first home.</li>
+            <li>We can assist you through this process, managing the details and offering tech articl$
+            <li>When or if the time comes, we'll also assist with selling your home.</li>
+        </ul>
+    </ol>
+
+	<p>We have expertise in the consent process for new developments and improvements, as well as </p>
+
+	<p><img src="https://unsplash.it/960/350?image=946" width="960" height="350" alt="Property ima"/></p>
+
+	<h3>Employment</h3>
+	<p>
+		If you're looking to employ or be employed, we offer solid tech articles and assistanc
+		We have a proven track record handling disputes.
+	</p>
+
+	<p><img src="https://unsplash.it/960/350?image=668" width="960" height="350" alt="Employment i"/></p>
+
+	<h3>Business</h3>
+	<p>From structuring and mergers to shareholder agreements, we are here to assist you when star
+
+	<p><img src="https://unsplash.it/960/350?image=376" width="960" height="350" alt="Business ima"/></p>
+</div>
+
+<div class="testimonials">
+	{% for testimonial in page.testimonials %}
+		<blockquote class="testimonial">
+			<p class="testimonial-message">{{ testimonial.message }}</p>
+			<p class="testimonial-author"><img src="{% include relative-src.html src=testimonial.image %}" alt="Photo of {{ testimonial.name }}"> {{ testimonial.name }}</p>
+		</blockquote>
+	{% endfor %}
+</div>

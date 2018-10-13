@@ -47,6 +47,8 @@
 			</div>
 		</section>
 
+		
+
 		{% if page.call_to_action == 'Map' and site.google_maps_javascript_api_key %}
 			<section class="map-section">
 				<div id="map"></div>
@@ -64,6 +66,17 @@
 				</p>
 			</section>
 		{% endif %}
+
+		<!--section class="main">
+			<div class="testimonials">
+					{% for testimonial in page.testimonials %}
+						<blockquote class="testimonial">
+							<p class="testimonial-message">{{ testimonial.message }}</p>
+							<p class="testimonial-author"><img src="{% include relative-src.html src=testimonial.image %}" alt="Photo of {{ testimonial.name }}"> {{ testimonial.name }}</p>
+						</blockquote>
+					{% endfor %}
+			</div>
+		</section-->
 
 		<footer>
 			<div class="container">
