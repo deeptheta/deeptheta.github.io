@@ -39,8 +39,8 @@ defaults:
       path: ""
     values:
       layout: page
-      background_image_path: /images/net-scape.jpeg
-      image: /images/net-scape.jpeg
+      background_image_path: /images/deep-blue.jpg
+      image: /images/deep-blue.jpg
   -
     scope:
       path: ""

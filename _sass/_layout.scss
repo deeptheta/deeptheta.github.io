@@ -17,13 +17,15 @@ body {
 }
 
 header {
-	background-repeat: repeat;
-	background-size: contain;
+	background-color: rgb(20, 40, 70);
+	background-repeat: no-repeat; //repeat-x;
+	background-size: 128 100%; //cover;//contain;
+	background-position: right;
 	box-sizing: border-box;
 	height: 128px;
 	margin: 0;
 	padding: 0;
-	color: white;
+	color: #c1c1c1;
 	font-weight: 900;
 
 	.container {
@@ -34,7 +36,7 @@ header {
 	@media (max-width: $mobile-break) {
 		height: 140px;
 		.invisititle {
-			color: rgba(255, 255, 255, 0.3);
+			color: rgba(255, 255, 255, 1.0);
 			font-size: 4rem;
 		}
         }
@@ -114,7 +116,7 @@ section {
 }
 
 .dark-section {
-	background-color: #3e3f46;
+	background-color: rgb(20, 40, 70); //#3e3f46;
 	color: #c1c1c1;
 	box-shadow: inset 0px 15px 15px -15px rgba(0, 0, 0, 0.5);
 
