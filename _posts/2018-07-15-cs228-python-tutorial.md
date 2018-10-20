@@ -4,7 +4,7 @@ date: 2018-07-15 00:00:00
 mathjax: true
 categories:
   - Python
-author_staff_member: jane-doe
+author_staff_member: viktor-remeli
 image: "https://unsplash.it/600/450?image=777&a=.png"
 large_header: false
 ---

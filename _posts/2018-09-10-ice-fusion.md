@@ -1,11 +1,13 @@
 ---
-title: Real Estate Flipping
-date: 2016-11-11 00:00:00
+title: Ice Fusion
+date: 2018-09-10 00:00:00
 categories:
-  - Property
-author_staff_member: john-doe
+  - Machine Learning
+  - Deep Fusion
+  - Autonomous Vehicles
+author_staff_member: viktor-remeli
 image: "https://unsplash.it/600/450?image=448&a=.png"
-large_header: false
+large_header: true
 ---
 
 Flipping is a term used primarily in the US to describe purchasing a revenue-generating asset and quickly reselling it for profit.
