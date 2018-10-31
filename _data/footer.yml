@@ -1,7 +1,5 @@
 - title: Pages
   links:
-    - name: Home
-      link: /
     - name: Research
       link: /research/
     - name: Code
@@ -12,15 +10,15 @@
       link: /contact/
 - title: Social
   links:
-    - name: Facebook
-      link: https://www.facebook.com/viktor.remeli
-      social_icon: Facebook
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/vremeli
+      social_icon: LinkedIn
       new_window: true
     - name: Twitter
       link: https://twitter.com/VRemeli
       social_icon: Twitter
       new_window: true
-    - name: LinkedIn
-      link: https://www.linkedin.com/in/vremeli
-      social_icon: LinkedIn
+    - name: Facebook
+      link: https://www.facebook.com/viktor.remeli
+      social_icon: Facebook
       new_window: true

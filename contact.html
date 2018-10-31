@@ -12,11 +12,41 @@ map:
 ---
 
 <p class="editable">
-	Come see us in person, give us a call, or send us a message with your details and we'll be in contact shortly after. No obligations and your first meeting is free.
+	Feel free to drop a message.
 </p>
 
 <div class="columns">
 	<div class="column">
+        <ul class="staff-list">
+            {% for member in site.staff_members %}
+                <li class="staff">
+                    <div class="staff-details">
+                        <div class="staff-image">
+                            <img src="{{ member.image }}" alt="Staff photo for {{ member.name }}" width="120" height="120">
+                        </div>
+                        <ul class="staff-info">
+                            <li>{{ member.name }}</li>
+                            <li><small>{{ member.credentials }}</small></li>
+                            <li>viktor.remeli@g<span style="display: none">nome</span>mail.com</li>
+                            {% for column in site.data.footer %}
+                                    {% for link in column.links %}
+                                    {% if link.social_icon %}
+                                        <a {% if link.new_window %}target="_blank"{% endif %} href="{% include relative-src.html src=link.link %}" {% if link.social_icon %}class="{{ link.social_icon | slugify }}-icon"{% endif %}>
+                                            {% include social-icon.html icon=link.social_icon %}
+                                        </a>
+                                    {% endif %}
+                                    {% endfor %}
+                            {% endfor %}
+                        </ul>
+                    </div>
+        
+                    <div class="staff-bio">
+                        <p>{{ member.content | markdownify }}</p>
+                    </div>
+                </li>
+            {% endfor %}
+        </ul>
+        <!--
 		<p class="editor-link"><a href="cloudcannon:collections/_data/company.yml" class="btn"><strong>&#9998;</strong> Update Company Details</a></p>
 
 		<label>Phone Number</label>
@@ -28,10 +58,12 @@ map:
 		<label>Postal Address</label>
 		<address class="contact-info">{{ site.data.company.postal_address | replace: ',', '<br>' }}</address>
 		<label>Address</label>
-		<address class="contact-info">{{ site.data.company.address | replace: ',', '<br>' }}</address>
+        <address class="contact-info">{{ site.data.company.address | replace: ',', '<br>' }}</address>
+        -->
 	</div>
 
 	<div class="column">
+        <!--
 		<form method="post" action="/contact-success.html">
 			<label for="email_address">Email Address</label>
 			<input id="email_address"type="text" name="email">
@@ -46,7 +78,8 @@ map:
 			<input type="text" name="_gotcha" style="display: none;">
 
 			<input type="submit" value="Send Message">
-		</form>
+        </form>
+        -->
 	</div>
 </div>
 
